@@ -1,0 +1,1 @@
+In this context, alpha means transparency.

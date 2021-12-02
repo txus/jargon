@@ -1,0 +1,15 @@
+global:
+  foo:
+    aka:
+      - bar
+    description: Some concept.
+  alpha:
+    aka:
+      - learning_rate
+      - lr
+    description: How big a step we take in each learning step
+"subfolder/foo":
+  alpha:
+    aka:
+      - transparency
+    description: How transparent an image is, from 0 (no transparency) to 1 (fully transparent).

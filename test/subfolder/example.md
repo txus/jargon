@@ -1,0 +1,1 @@
+This should resolve to the global context, where alpha means learning rate. Foo should mean something too, mainly bar.

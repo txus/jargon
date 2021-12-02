@@ -1,0 +1,22 @@
+{
+	"name": "jargon-lsp-client",
+	"description": "Jargon LSP Client for VSCode",
+	"author": "Txus Bach",
+	"license": "MIT",
+	"version": "1.0",
+	"publisher": "vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/txus/jargon"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"dependencies": {
+		"vscode-languageclient": "^7.0.0"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.52.0",
+		"@vscode/test-electron": "^1.6.1"
+	}
+}

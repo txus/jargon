@@ -1,0 +1,22 @@
+{
+	"name": "jargon-lsp-server",
+	"description": "Jargon LSP server",
+	"version": "1.0.0",
+	"author": "Microsoft Corporation",
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/txus/jargon"
+	},
+	"dependencies": {
+		"file-uri-to-path": "^2.0.0",
+		"vscode-languageserver": "^7.0.0",
+		"vscode-languageserver-textdocument": "^1.0.1",
+		"vscode-uri": "^3.0.2",
+		"yaml": "^1.10.2"
+	},
+	"scripts": {}
+}
