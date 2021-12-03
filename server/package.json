@@ -1,7 +1,7 @@
 {
 	"name": "jargon-lsp-server",
 	"description": "Jargon LSP server",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Microsoft Corporation",
 	"license": "MIT",
 	"engines": {

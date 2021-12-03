@@ -329,15 +329,14 @@ connection.onExecuteCommand(async (params) => {
 				for (const [nsName, nsTerms] of Object.entries(doc)) {
 					nsToKnown[nsName] = (nsTerms as Array<string>);
 				}
-				// add the new word as known
-				if (!(nsToKnown[namespaceName] || []).includes(termName)) {
-					nsToKnown[namespaceName] = (nsToKnown[namespaceName] || []).concat(termName);
-				}
-				console.log(nsToKnown);
-
-				const toWrite = YAML.stringify(nsToKnown);
-				fs.writeFileSync(knownPath, toWrite);
 			}
+			// add the new word as known
+			if (!(nsToKnown[namespaceName] || []).includes(termName)) {
+				nsToKnown[namespaceName] = (nsToKnown[namespaceName] || []).concat(termName);
+			}
+
+			const toWrite = YAML.stringify(nsToKnown);
+			fs.writeFileSync(knownPath, toWrite);
 		}
 	});
 });
